@@ -1,3 +1,5 @@
+package ejescola;
+
 public class Alumno {
     private String nombre;
     private String apellido;

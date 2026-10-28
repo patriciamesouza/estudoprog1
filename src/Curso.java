@@ -1,3 +1,6 @@
+import ejescola.Alumno;
+import ejescola.Profesor;
+
 public class Curso {
     // 1. Atributos
     private String nombre;
@@ -54,8 +57,8 @@ public class Curso {
     @Override
     public String toString() {
         return this.nombre +
-                " - Alumno: " + this.alumno.getNombre() +
-                " - Profesor: " + this.profesor.getNombre() +
+                " - ejescola.Alumno: " + this.alumno.getNombre() +
+                " - ejescola.Profesor: " + this.profesor.getNombre() +
                 " - Media: " + this.alumno.getMedia();
     }
 }

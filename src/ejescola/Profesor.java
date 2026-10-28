@@ -1,3 +1,5 @@
+package ejescola;
+
 public class Profesor {
     // 1. Atributos
     private String nombre;

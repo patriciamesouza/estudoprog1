@@ -48,7 +48,7 @@ public class CuentaBancaria {
     public void depositar(double cantidad){
     this.saldo += cantidad;
     }
-    public String toString(){
-    return "saldo de " + this.titular + " (" + this.nombreBanco + ")" + this.saldo + "€";
-    }
+//    public String toString(){
+//    return "saldo de " + this.titular + " (" + this.nombreBanco + ")" + this.saldo + "€";
+//    }
 }
