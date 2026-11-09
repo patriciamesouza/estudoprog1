@@ -38,4 +38,14 @@ public class Patinete extends Vehiculo{
     public void setTieneLuces(boolean tieneLuces) {
         this.tieneLuces = tieneLuces;
     }
+
+    public double getAutonomia(double consumo) {
+        return this.capacidadBateria / consumo;
+    }
+
+    public String toString() {
+        return "Patinete " + getModelo() + ", de " + this.marca +
+                " (" + getPrecioPorDia() + " €/día)";
+    }
+
 }
