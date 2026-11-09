@@ -43,7 +43,7 @@ public class Vehiculo {
     }
 
     public String toString(){
-        return this.modelo + "( " + this.precioPorDia + "€/día)"
+        return this.modelo + "( " + this.precioPorDia + "€/día)";
     }
 
 }
