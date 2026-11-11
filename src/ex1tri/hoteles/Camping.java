@@ -1,4 +1,4 @@
-package hoteles;
+package ex1tri.hoteles;
 
 public class Camping extends Alojamiento{
     private int numeroCaravanas;

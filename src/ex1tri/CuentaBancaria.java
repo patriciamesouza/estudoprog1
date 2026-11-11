@@ -1,3 +1,5 @@
+package ex1tri;
+
 public class CuentaBancaria {
     private String titular;
     private String nombreBanco;

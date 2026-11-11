@@ -1,5 +1,7 @@
-import ejescola.Alumno;
-import ejescola.Profesor;
+package ex1tri;
+
+import ex1tri.ejescola.Alumno;
+import ex1tri.ejescola.Profesor;
 
 public class Curso {
     // 1. Atributos
@@ -57,8 +59,8 @@ public class Curso {
     @Override
     public String toString() {
         return this.nombre +
-                " - ejescola.Alumno: " + this.alumno.getNombre() +
-                " - ejescola.Profesor: " + this.profesor.getNombre() +
+                " - ex1tri.ejescola.Alumno: " + this.alumno.getNombre() +
+                " - ex1tri.ejescola.Profesor: " + this.profesor.getNombre() +
                 " - Media: " + this.alumno.getMedia();
     }
 }

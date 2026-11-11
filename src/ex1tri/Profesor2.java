@@ -1,11 +1,13 @@
+package ex1tri;
+
 public class Profesor2 extends Persona {
     private String codigo;
     private String modulo;
     private double salario;
 
-    // O nome deve ser igual ao da classe (Profesor2) e corrigido o fecho com {
+    // O nome deve ser igual ao da classe (ex1tri.Profesor2) e corrigido o fecho com {
     public Profesor2(String nombre, int edad, double peso, String piel, int telefono, String correo, String codigo, String modulo, double salario) {
-        super(nombre, edad, peso, piel, telefono, correo); // Chama o construtor da classe pai (Persona)
+        super(nombre, edad, peso, piel, telefono, correo); // Chama o construtor da classe pai (ex1tri.Persona)
         this.codigo = codigo;
         this.modulo = modulo;
         this.salario = salario;
@@ -36,6 +38,6 @@ public class Profesor2 extends Persona {
         this.salario = salario;
     }
     public String toString(){
-        return "ejescola.Profesor" + this.getNombre();
+        return "ex1tri.ejescola.Profesor" + this.getNombre();
     }
 }

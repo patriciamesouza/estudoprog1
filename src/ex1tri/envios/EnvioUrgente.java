@@ -1,4 +1,4 @@
-package envios;
+package ex1tri.envios;
 
 public class EnvioUrgente extends Envio {
 

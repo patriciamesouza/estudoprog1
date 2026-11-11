@@ -1,4 +1,4 @@
-package envios;
+package ex1tri.envios;
 
 public class EnvioNacional extends Envio{
     private double iva;

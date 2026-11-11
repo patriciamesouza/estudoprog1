@@ -1,12 +1,14 @@
+package ex1tri;
+
 public class Equipo {
     private String nombre;
     private int anyoFundacion;
-    // Estos atributos son objetos de la clase Jugador
+    // Estos atributos son objetos de la clase ex1tri.Jugador
     private Jugador jugador1;
     private Jugador jugador2;
     private Jugador jugador3;
 
-    // CORREGIDO: Los parámetros deben ser de tipo 'Jugador', no 'String'
+    // CORREGIDO: Los parámetros deben ser de tipo 'ex1tri.Jugador', no 'String'
     public Equipo(String nombre, int anyoFundacion, Jugador jugador1, Jugador jugador2, Jugador jugador3) {
         this.nombre = nombre;
         this.anyoFundacion = anyoFundacion;
@@ -31,32 +33,32 @@ public class Equipo {
         this.anyoFundacion = anyoFundacion;
     }
 
-    // CORREGIDO: Cambiado String por Jugador
+    // CORREGIDO: Cambiado String por ex1tri.Jugador
     public Jugador getJugador1() {
         return jugador1;
     }
 
-    // CORREGIDO: Cambiado String por Jugador
+    // CORREGIDO: Cambiado String por ex1tri.Jugador
     public void setJugador1(Jugador jugador1) {
         this.jugador1 = jugador1;
     }
 
-    // CORREGIDO: Cambiado String por Jugador
+    // CORREGIDO: Cambiado String por ex1tri.Jugador
     public Jugador getJugador2() {
         return jugador2;
     }
 
-    // CORREGIDO: Cambiado String por Jugador
+    // CORREGIDO: Cambiado String por ex1tri.Jugador
     public void setJugador2(Jugador jugador2) {
         this.jugador2 = jugador2;
     }
 
-    // CORREGIDO: Cambiado String por Jugador
+    // CORREGIDO: Cambiado String por ex1tri.Jugador
     public Jugador getJugador3() {
         return jugador3;
     }
 
-    // CORREGIDO: Cambiado String por Jugador
+    // CORREGIDO: Cambiado String por ex1tri.Jugador
     public void setJugador3(Jugador jugador3) {
         this.jugador3 = jugador3;
     }

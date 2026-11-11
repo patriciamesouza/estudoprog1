@@ -1,4 +1,4 @@
-package ejescola;
+package ex1tri.ejescola;
 
 public class Profesor {
     // 1. Atributos

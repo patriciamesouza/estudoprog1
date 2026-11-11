@@ -1,4 +1,4 @@
-package hoteles;
+package ex1tri.hoteles;
 
 public class Alojamiento {
     private String nombre;

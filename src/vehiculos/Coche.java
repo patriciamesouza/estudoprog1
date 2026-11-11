@@ -19,6 +19,7 @@ public class Coche extends Vehiculo{
     }
 
     public Coche() {
+        super();
     }
    // aqui uno constructor con motor de 100 caballos//
     public Coche(String modelo, int numeroPlazas, double precioPorDia, String marca, Motor motor) {

@@ -32,6 +32,7 @@ public class Furgoneta extends Vehiculo{
         return this.volumenCarga >= 20;
     }
 
+
     public boolean cabeVolumen(double volumen){
         return volumen < this.volumenCarga;
     }

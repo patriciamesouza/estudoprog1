@@ -1,4 +1,4 @@
-package hoteles;
+package ex1tri.hoteles;
 
 public class Hotel extends Alojamiento{
     private int estrellas;
